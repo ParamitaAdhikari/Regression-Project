@@ -5,7 +5,7 @@ library(EnvStats)
 library(lattice)
 library(car)
 library(trafo)
-data=read.table("E:\\ISID M1\\RT files\\RTdata.txt")
+data=read.table("RTdata.txt")
 Tax=data$V2
 Income=data$V3
 Miles=data$V4
